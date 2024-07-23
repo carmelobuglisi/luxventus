@@ -1,0 +1,110 @@
+/* ** Reset ** */
+/* ################## SCRIVI QUI IL CSS RESET  ################ */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ########################################################### */
+
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+main {
+    max-width: 1440px;
+
+}
+
+/* ** Hero section ** */
+.hero_section {
+    background-color: #8BA9F4;
+
+}
+
+/* ** Topics section ** */
+.topics_section {
+
+}
+    /* Section title - h3 */
+.section_title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+
+    color: #262626;
+}
+    /* Mini cards */
+.mini_topic_cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+    gap: 10px;
+}
+    /* Single card */
+.mini_card {
+
+}
+.mini_card_title {
+
+}
+.mini_card_button {
+
+}
+
+.divider_line {
+    margin: 0 auto;
+    width: 90%;
+    border: 1px solid #BCBCBC;
+}
+
+
+/* ** Latest Post ** */
+.latest_post {
+    margin: 0 auto;
+    width: 1200px;
+    height: 700px;
+
+    border-radius: 20px;
+
+
+}
+
+
+/* ** Text styles and colors ** */
+.text_capitalize {text-transform: capitalize;}
+.text_uppercase {text-transform: uppercase;}
+.text_linear_gradient {background: linear-gradient(90deg, #4CE0D7 43.06%, #8BA9F4 100%);}
+
+
+/* Colors */
+
+/* Text colors:
+        #262626
+        #BCBCBC
+        #FFFFFF
+        background: linear-gradient(90deg, #4CE0D7 43.06%, #8BA9F4 100%);
+        #F25E5E (red)
+        #4CE0D7 (turquoise - link)
+    
+    Button color:
+        #4CE0D7 (bg)
+        #262626 (text)
+    
+    Labels color:
+        #262626 (bg)
+        #FFFFFF (text)
+
+    Page background: 
+        #F9F9F9 (bg)
+
+*/  
+
+/* Border Red -> add class="b_red" */
+.b_red { border: 1px solid red;}
